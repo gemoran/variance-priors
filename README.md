@@ -1,4 +1,5 @@
 
+## Variance prior forms for Bayesian variable selection
 This repository contains R code to reproduce the results in Moran et al (2018).
 
 This code uses the Spike-and-Slab Lasso (with both the fixed and unknown variance cases) which is implemented in the `SSLASSO` R package, available on [CRAN](https://CRAN.R-project.org/package=SSLASSO). 
@@ -23,6 +24,6 @@ This code uses the Spike-and-Slab Lasso (with both the fixed and unknown varianc
 install_github("gemma-e-moran/variance-priors/scaledSSL")
 ```
 
-### Reference
+### References
 - Moran, G. E., Rockova, V. and George, E. I. (2018) "Variance prior forms for high-dimensional Bayesian variable selection'' [[arXiv:1801.03019]](https://arxiv.org/abs/1801.03019)
 - Clyde, M. A. and Parmigiani, G. (1998) "Protein construct storage: Bayesian variable selection and prediction with mixtures" *Journal of Biopharmaceutical Statistics*, 8, 431-443 
