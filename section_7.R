@@ -75,19 +75,11 @@ n <- nrow(X)
 #------------------------------------------
 
 # Run BAS
-# NOTE: this takes a while. I have provided the file "protein_bas.RData" in the "data" folder
-# which contains the output "bas_fit"
-
-do_bas <- !file.exists("results/protein_bas.RData")
-if (do_bas) {
-  bas_fit <- bas.lm(y~ X,
+# NOTE: this takes a while
+bas_fit <- bas.lm(y~ X,
                     prior="JZS",
                     method = "BAS")
-  save(bas_fit, file = "results/protein_bas.RData")
-  
-} else {
-  load("results/protein_bas.RData")
-}
+
 
 # Look at Posterior Inclusion Probabilities (PIP) from BAS 
 pip <- summary(bas_fit)[c(2:(p+1)),1]

@@ -5,15 +5,15 @@ This repository contains R code to reproduce the results in Moran et al (2018).
 This code uses the Spike-and-Slab Lasso which is implemented in the `SSLASSO` R package, available on [CRAN](https://CRAN.R-project.org/package=SSLASSO). 
 
 ### Index
-- "section_3-2.R"
+- `section_3-2.R`
 
   This R script runs the simulation study in Section 3.2 and generates Figure 1. 
 
-- "section_6-6.R"
+- `section_6-6.R`
 
   This R script runs the simulation study in Section 6.6 and generates Table 1 and Figure 2.
 
-- "section_7.R" 
+- `section_7.R`
 
   This R script runs the analysis of the protein activity data of Clyde and Parmigiani (1998) which is detailed in Section 7.
 
