@@ -2,7 +2,7 @@
 ## Variance prior forms for Bayesian variable selection
 This repository contains R code to reproduce the results in Moran et al (2018).
 
-This code uses the Spike-and-Slab Lasso (with both the fixed and unknown variance cases) which is implemented in the `SSLASSO` R package, available on [CRAN](https://CRAN.R-project.org/package=SSLASSO). 
+This code uses the Spike-and-Slab Lasso which is implemented in the `SSLASSO` R package, available on [CRAN](https://CRAN.R-project.org/package=SSLASSO). 
 
 ### Index
 - "section_3-2.R"
