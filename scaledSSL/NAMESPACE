@@ -1,0 +1,6 @@
+import('stats')
+import('graphics')
+import('grDevices')
+useDynLib(scaledSSL, .registration=TRUE)
+
+export(scaledSSL)
