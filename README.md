@@ -19,8 +19,9 @@ This code uses the Spike-and-Slab Lasso which is implemented in the `SSLASSO` R 
 
 - `scaledSSL`
 
-  This package implements the "scaled Spike-and-Slab Lasso" as described in Section 6.5 of Moran et al (2018). It is provided for the sole purpose of reproducing the results in "section_6.6.R". If you would like to use the Spike-and-Slab Lasso with unknown variance, please use the package `SSLASSO` available on CRAN [here](https://CRAN.R-project.org/package=SSLASSO). To install `scaledSSL` in order to run the code in "section_6.6.R", use the following command:
+  This package implements the "scaled Spike-and-Slab Lasso" as described in Section 6.5 of Moran et al (2018). It is provided for the sole purpose of reproducing the results in "section_6.6.R". If you would like to use the Spike-and-Slab Lasso with unknown variance, please use the package `SSLASSO` available on CRAN [here](https://CRAN.R-project.org/package=SSLASSO). To install `scaledSSL` in order to run the code in "section_6.6.R", use the following commands:
 ```
+library(devtools)
 install_github("gemma-e-moran/variance-priors/scaledSSL")
 ```
 
